@@ -42,7 +42,7 @@ match['team1']=match['team1'].str.replace('Deccan Chargers','Sunrisers Hyderabad
 match['team2']=match['team2'].str.replace('Deccan Chargers','Sunrisers Hyderabad')
 match['winner']=match['winner'].str.replace('Deccan Chargers','Sunrisers Hyderabad')
 
-st.image('static\images\IPL_background_image.jpg')
+st.image('static/images/IPL_background_image.jpg')
 
 # st.markdown(
 #     """
